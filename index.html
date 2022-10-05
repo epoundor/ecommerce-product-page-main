@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | E-commerce product page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="h-12 flex items-center justify-between px-4 py-2 shadow-md">
+      <div class="flex h-full items-center gap-4">
+        <img src="./images/icon-menu.svg" alt="" />
+        <img src="./images/logo.svg" alt="" />
+      </div>
+      <div class="flex h-full items-center gap-4">
+        <img src="./images/icon-cart.svg" alt="" />
+        <img src="./images/image-avatar.png" alt="" />
+      </div>
+      <div class="absolute hidden z-[999] inset-0 bg-[#00000080]"></div>
+    </header>
+    <section class="flex flex-col">
+      <div class="aspect-square relative">
+        <div
+          class="flex justify-between absolute -translate-y-1/2 top-1/2 inset-0 h-6 px-4"
+        >
+          <button
+            class="rounded-full w-12 flex items-center justify-center h-12 aspect-square bg-white rotate-180"
+          >
+            <img src="./images/icon-next.svg" alt="" />
+          </button>
+          <button
+            class="rounded-full w-12 flex items-center justify-center h-12 aspect-square bg-white"
+          >
+            <img src="./images/icon-next.svg" alt="" />
+          </button>
+        </div>
+        <img src="./images/image-product-1.jpg" alt="" />
+      </div>
+      <div class="p-4">
+        <div class="text-orange-400 font-bold text-sm mb-4">
+          SNEAKER COMPANY
+        </div>
+        <h1 class="font-bold text-3xl capitalize mb-6">
+          Fall Limited Edition Sneakers
+        </h1>
+        <span class="text-gray-400 mb-4"
+          >These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole,they'll withstand everything the
+          weathercan offer.</span
+        >
+        <div class="flex justify-between items-center"></div>
+      </div>
+    </section>
+    <!-- 
+  Collections
+  Men
+  Women
+  About
+  Contact
+
+  Sneaker Company
+
+  Fall Limited Edition Sneakers
+
+  These low-profile sneakers are your perfect casual wear companion. Featuring a 
+  durable rubber outer sole, they’ll withstand everything the weather can offer.
+
+  $125.00
+  50%
+  $250.00
+
+  0
+  Add to cart -->
+  </body>
+</html>
